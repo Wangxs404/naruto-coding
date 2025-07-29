@@ -1,7 +1,8 @@
-
 opencv-python>=4.8.0
 Pillow>=10.0.0
 numpy>=1.23.0
 pyautogui>=0.9.53
 setuptools>=65.0.0
 onnxruntime-cpu>=1.14.0
+pygame>=2.5.0
+pygame_gui>=0.6.0
