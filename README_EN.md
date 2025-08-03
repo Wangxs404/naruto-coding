@@ -1,5 +1,11 @@
 # NARUTO Hand Sign Programming System 🥷
 
+<!-- Language Switch -->
+**🌐 Language / 言語**
+- [🇨🇳 中文](README.md) | [🇺🇸 English](README_EN.md) | [🇯🇵 日本語](README_JP.md)
+
+---
+
 A real-time gesture recognition programming system based on deep learning that recognizes Naruto hand signs for code programming and keyboard input.
 
 ![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)

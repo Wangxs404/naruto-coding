@@ -1,5 +1,11 @@
 # NARUTO 结印编程系统 🥷
 
+<!-- Language Switch -->
+**🌐 Language / 言語**
+- [🇨🇳 中文](README.md) | [🇺🇸 English](README_EN.md) | [🇯🇵 日本語](README_JP.md)
+
+---
+
 一个基于深度学习的实时手势识别编程系统，通过识别火影忍者手印来进行代码编程和键盘输入。
 
 ![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)
@@ -75,6 +81,15 @@ NARUTO-FINAL/
 - **推理速度**: 30+ FPS
 - **支持平台**: Windows
 - **实时性**: 低延迟手势识别
+
+## 💖 赞助支持
+
+如果这个项目对您有帮助，欢迎赞助支持开发！
+
+<div align="center">
+  <img src="asset/sponsor.jpg" alt="赞助二维码" width="300">
+  <p><em>扫码赞助 / Sponsor Me</em></p>
+</div>
 
 ## 📄 许可证
 

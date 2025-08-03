@@ -1,5 +1,11 @@
 # NARUTO 印結びプログラミングシステム 🥷
 
+<!-- Language Switch -->
+**🌐 Language / 言語**
+- [🇨🇳 中文](README.md) | [🇺🇸 English](README_EN.md) | [🇯🇵 日本語](README_JP.md)
+
+---
+
 深層学習に基づくリアルタイム手勢認識プログラミングシステム。NARUTOの印を認識してコードプログラミングとキーボード入力を行います。
 
 ![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)
