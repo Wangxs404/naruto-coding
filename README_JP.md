@@ -61,3 +61,24 @@ python app.py
 5. コードエディターでコードを記述・実行
 
 ## 📁 プロジェクト構造
+
+## 💖 スポンサー
+
+このプロジェクトがお役に立ちましたら、開発支援のためのスポンサーを歓迎します！
+
+<div align="center">
+  <img src="asset/sponsor.jpg" alt="スポンサーQRコード" width="300">
+  <p><em>スキャンしてスポンサー / Scan to Sponsor</em></p>
+</div>
+
+## 🙏 謝辞
+
+このプロジェクトは以下のリポジトリに基づいて開発されました：
+
+- [NARUTO-HandSignDetection](https://github.com/Kazuhito00/NARUTO-HandSignDetection/tree/main) - オリジナルの手印検出プロジェクト
+
+元の作者のオープンソース貢献に感謝します！
+
+## 📄 ライセンス
+
+// ... existing code ...

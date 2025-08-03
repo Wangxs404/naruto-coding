@@ -91,6 +91,14 @@ NARUTO-FINAL/
   <p><em>扫码赞助 / Sponsor Me</em></p>
 </div>
 
+## 🙏 致谢
+
+本项目基于以下仓库开发：
+
+- [NARUTO-HandSignDetection](https://github.com/Kazuhito00/NARUTO-HandSignDetection/tree/main) - 原始手印检测项目
+
+感谢原作者的开源贡献！
+
 ## 📄 许可证
 
 本项目采用 MIT 许可证。

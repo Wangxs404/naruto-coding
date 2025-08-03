@@ -61,3 +61,24 @@ python app.py
 5. Write and run code in the code editor
 
 ## 📁 Project Structure
+
+## 💖 Sponsor
+
+If this project helps you, welcome to sponsor and support development!
+
+<div align="center">
+  <img src="asset/sponsor.jpg" alt="Sponsor QR Code" width="300">
+  <p><em>Scan to Sponsor / 扫码赞助</em></p>
+</div>
+
+## 🙏 Acknowledgments
+
+This project is based on the following repository:
+
+- [NARUTO-HandSignDetection](https://github.com/Kazuhito00/NARUTO-HandSignDetection/tree/main) - Original hand sign detection project
+
+Thanks to the original author for the open source contribution!
+
+## 📄 License
+
+// ... existing code ...
