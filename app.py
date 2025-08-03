@@ -15,7 +15,7 @@ import pyautogui
 import os
 import subprocess
 import pygame
-from code_editor import CodeEditor
+from utils.code_editor import CodeEditor
 from pygments.styles import get_style_by_name
 
 # 导入键盘映射和手势映射关系
@@ -446,9 +446,10 @@ class NarutoGUI:
                 self.tutorial_text.insert(1.0, f"无法加载ASCII.md文件: {e}\n基础手印：子丑寅卯辰巳午未申酉戌亥")
         else:
             # 简单模式 - 显示快捷组合
-            simple_content = "巳>戌>未>辰 -> Hello World\n\n"
-            simple_content += "巳>戌>寅>辰 -> Hello NARUTO\n\n"
-            simple_content += "巳>戌>子>辰 -> Hello AdventureX\n\n"
+            # simple_content = "巳>戌>未>辰 -> Hello World\n\n"
+            simple_content = "丑>寅>子>子>未>戌>午>未>辰>子>巳 -> Hello World\n\n"
+            # simple_content += "巳>戌>寅>辰 -> Hello NARUTO\n\n"
+            # simple_content += "巳>戌>子>辰 -> Hello AdventureX\n\n"
             simple_content += "常用编程组合:\n\n"
             simple_content += "辰 -> Ctrl+Enter   丑丑 -> Ctrl+V     丑寅 -> Ctrl+X     丑卯 -> Ctrl+Z\n"
             simple_content += "丑辰 -> Ctrl+S     丑巳 -> Ctrl+A     丑午 -> Ctrl+F     丑未 -> Alt+Tab\n"
@@ -463,20 +464,20 @@ class NarutoGUI:
             return
 
         try:
-            with open("main.py", "w", encoding="utf-8") as f:
+            with open("./utils/naruto.py", "w", encoding="utf-8") as f:
                 f.write(code_content)
         except Exception as e:
-            self.update_code_output(f"Error writing to main.py: {e}\n")
+            self.update_code_output(f"Error writing to ./utils/naruto.py: {e}\n")
             return
         
         # Clear previous output
         self.code_output.config(state='normal')
         self.code_output.delete(1.0, tk.END)
-        self.code_output.insert(tk.END, f"PS {os.getcwd()}> python main.py\n")
+        self.code_output.insert(tk.END, f"PS {os.getcwd()}> python ./utils/naruto.py\n")
         self.code_output.config(state='disabled')
 
         # Run command in a separate thread to avoid blocking the GUI
-        thread = threading.Thread(target=self._execute_command, args=(f"python main.py",))
+        thread = threading.Thread(target=self._execute_command, args=(f"python ./utils/naruto.py",))
         thread.daemon = True
         thread.start()
         return "break" # Prevents the default Enter key behavior in the Text widget

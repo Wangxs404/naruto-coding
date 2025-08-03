@@ -22,12 +22,27 @@
 # }
 
 # 手印组合到单词的映射
+# WORD_MAPPINGS = {
+#     (6,): 'hello',  # 数字1对应键入单词hello
+#     (8,): 'world',  # 数字2对应键入单词world
+#     (3,): 'NARUTO',  # 数字1对应键入单词NARUTO
+#     (1,): 'AdventureX',  # 数字1对应键入单词AdventureX
+# }
+
 WORD_MAPPINGS = {
-    (6,): 'hello',  # 数字1对应键入单词hello
-    (8,): 'world',  # 数字2对应键入单词world
-    (3,): 'NARUTO',  # 数字1对应键入单词NARUTO
-    (1,): 'AdventureX',  # 数字1对应键入单词AdventureX
+    (1,): 'l',  # 数字1对应键入单词hello
+    (2,): 'h',  # 数字2对应键入单词world
+    (3,): 'e',  # 数字1对应键入单词NARUTO
+    (5,): 'r',  # 数字1对应键入单词AdventureX
+    (6,): 'd',  # 数字1对应键入单词AdventureX
+    (7,): 'w',  # 数字1对应键入单词AdventureX
+    (8,): 'o',  # 数字1对应键入单词AdventureX
+    (9,): 'x',  # 数字1对应键入单词AdventureX
 }
+
+# hello world
+# 23118 78546
+# 丑寅子子未 午未辰卯巳
 
 # 手印组合到特殊按键的映射
 SPECIAL_KEY_MAPPINGS = {
